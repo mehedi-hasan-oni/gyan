@@ -1,0 +1,261 @@
+/*===============================
+Responsive for X-Small Devices Start
+=================================*/
+
+@media (min-width:320px) and (max-width:575px) {
+
+    .main-tittle p {
+        width: auto;
+    }
+
+    /*===============================
+     Header Responsive Start
+=================================*/
+
+    header {
+        text-align: center;
+    }
+
+    header span {
+        display: block;
+    }
+
+    header a {
+        display: block;
+        margin-left: -25px;
+    }
+
+    header .head-login {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    header .head-login a {
+        display: inline-block;
+        margin: 0;
+    }
+
+    /*===============================
+     Header Responsive End
+=================================*/
+    /*===============================
+     Nav Responsive start
+=================================*/
+
+    .navbar-toggler {
+        margin-top: 20px;
+    }
+
+    .navbar-nav .nav-link {
+        padding-right: 15px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    nav .button a {
+        margin-left: 25%;
+    }
+
+
+    /*===============================
+     Nav Responsive End
+=================================*/
+    /*===============================
+     Banner Responsive Start
+=================================*/
+    #banner-part .banner .overlay h2 {
+        font-size: 33px;
+        padding-top: 46px;
+    }
+
+    #banner-part .banner .overlay h1 {
+        font-size: 45px;
+    }
+
+    #banner-part .banner .overlay p {
+        width: auto;
+    }
+
+    #banner-part .banner .overlay .button a {
+        padding: 15px 15px;
+        margin-right: 10px;
+    }
+
+    #banner-part .banner-slider ul {
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        transform: translateX(-67%);
+    }
+
+    #banner-part .banner-slider ul li {
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        border: 1px solid #fbaa33;
+        border-radius: 50%;
+        margin: 5px;
+        display: inline-block;
+    }
+
+    #banner-part .banner-slider ul .slick-active {
+        background: #fbaa33;
+    }
+
+    #banner-part .banner-slider ul li button {
+        display: none;
+    }
+
+    /*===============================
+     Banner Responsive End
+=================================*/
+    /*===============================
+     About Responsive start
+=================================*/
+
+    #about-part .rev_slider::after {
+        display: none;
+    }
+
+    #about-part .rev_slider::before {
+        display: none;
+    }
+
+    #about-part .slider-s::after {
+        display: none;
+    }
+
+    #about-part .slider-s::before {
+        display: none;
+    }
+
+    #about-part .slick-dots {
+        bottom: 40px;
+        right: 43%;
+    }
+
+    #about-part .slick-dots li {
+        width: 15px;
+        height: 15px;
+    }
+
+    #about-part .text {
+        margin-top: 0;
+    }
+
+    #about-part .text p {
+        width: auto;
+    }
+
+    #about-part .button {
+        margin: 20px 0 20px 15px;
+    }
+
+    #about-part .button a {
+        font-size: 16px;
+        padding: 15px 15px;
+    }
+
+    /*===============================
+     About Responsive End
+=================================*/
+    /*===============================
+     Counter-up Responsive start
+=================================*/
+    #counter-up p::after {
+        top: 40px;
+    }
+
+    #counter-up p::before {
+        top: 40px;
+    }
+
+    /*===============================
+     Counter-up Responsive End
+=================================*/
+    /*===============================
+     Course Responsive start
+=================================*/
+
+    #course-part .course-slider .name-d {
+        font-size: 14px;
+    }
+
+    #course-part .course-slider .item .rating {
+        font-size: 14px;
+    }
+
+    #course-part .course-slider .item .rating i {
+        font-size: 13px;
+    }
+
+    #course-part .course-slider .item .details h2 {
+        font-size: 23px;
+    }
+
+    #course-part .course-slider ul {
+        margin: 30px 0 -30px 60px;
+    }
+
+    #course-part .course-slider .slick-dots li {
+        display: inline-block;
+    }
+
+    #course-part .course-slider ul li button {
+        width: 15px;
+        height: 15px;
+        background: transparent;
+        border: 1px solid #fbaa33;
+        border-radius: 50%;
+        font-size: 0;
+        margin: 6px;
+    }
+
+    #course-part .course-slider ul .slick-active button {
+        background: #fbaa33;
+    }
+
+    /*===============================
+     Course Responsive End
+=================================*/
+
+    /*===============================
+     Testimonial Responsive Start
+=================================*/
+
+    #testi-part .testi_slider::after {
+        display: none;
+    }
+
+    #testi-part .testi_slider::before {
+        display: none;
+    }
+
+    #testi-part .slider-s::after {
+        display: none;
+    }
+
+    #testi-part .slider-s::before {
+        display: none;
+    }
+
+    #testi-part .testi-text .item p {
+        margin-top: -100px;
+    }
+
+    #testi-part .accordion {
+        margin-top: 0px;
+    }
+
+
+    /*===============================
+     Testimonial Responsive End
+=================================*/
+
+
+    /*=========Red Line==========*/
+}
+
+/*===============================
+Responsive for X-Small Devices end
+=================================*/
